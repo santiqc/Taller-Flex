@@ -3,6 +3,9 @@
   margin: 0%;
   padding: 0%;
 }
+body{
+  background-color: #eeeeee;
+}
 header {
   height: 80px;
   width: 100%;
@@ -18,13 +21,14 @@ span {
   gap: 30%;
 }
 
-li {
+a {
   display: flex;
   width: 25%;
   color: white;
   justify-content: center;
+  text-decoration: none;
 }
-li:hover {
+a:hover {
   color: #00aae4;
 }
 h1 {
@@ -210,6 +214,11 @@ footer p {
   color: white;
   font-size: 18px;
 }
+
+
+
+
+
 
 
 
