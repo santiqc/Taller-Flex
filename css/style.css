@@ -1191,10 +1191,10 @@ textarea#texto{
     width: 80%;
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
   }
   section h1 {
-    font-size: 48px;
+    font-size: 46px;
   }
   /* ************************************************************************ */
   aside {
@@ -1253,7 +1253,7 @@ textarea#texto{
   height: 24%;
 }
 .container h1{
-  font-size: 18px;
+  font-size: 16px;
   color: black;
 }
 .container p{
@@ -1308,7 +1308,7 @@ footer p{
 
 .parrafo-nosotros p{
   width: 100%;
-  font-size: 17px;
+  font-size: 16px;
 }
  
 .parrafo1-nosotros{
@@ -1321,7 +1321,7 @@ footer p{
 
 .parrafo1-nosotros p{
   color: white;
-  font-size: 17px;
+  font-size: 16px;
   padding: 2%;
 }
 
@@ -1351,14 +1351,14 @@ footer p{
   
 }
 .cuerpo2-nosotros h2{
-  font-size: 25px;
+  font-size: 23px;
   color: white;
 
 }
 
 .cuerpo2-nosotros p{
   color: white;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 
@@ -1381,7 +1381,7 @@ footer p{
   gap: 1%;
 }
 .cuerpo1-servicios h2{
-  font-size: 19px;
+  font-size: 18px;
 }
 .parrafo-servicios {
   display: flex;
@@ -1399,7 +1399,7 @@ footer p{
 
 .parrafo-servicios p {
   width: 100%;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 /* ******************* */
@@ -1446,7 +1446,7 @@ footer p{
     flex-direction: column;
   }
   .cuerpo1-contacto h2{
-    font-size: 25px;
+    font-size: 23px;
   
   }
   
@@ -1468,7 +1468,7 @@ footer p{
     justify-content: flex-start;
   }
   .cuerpo2-contacto h2 {
-    font-size: 25px;
+    font-size: 23px;
     color: white;
   }
   
