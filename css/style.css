@@ -47,20 +47,21 @@ nav {
 /* cuerpo */
 /* **************************** */
 section {
+  display: flex;
   width: 100%;
   height: 500px;
   background-image: url(../img/cabecera.jpg);
-  background-size: 100% 100%;}
-img {
-  height: 500px;
-}
-
-section {
-  display: flex;
+  background-size: 100% 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+  
+
+img {
+  height: 500px;
+}
+
 section p {
   width: 70%;
   text-align: center;
@@ -157,14 +158,14 @@ footer p{
 /* *************************************
 -------------pagina nosotros------------ */
 
-.cuerpo{
+.cuerpo-nosotros{
   display: flex;
   width: 100%;
   padding: 2% 8% 2% 8%;
   height: 730px;
   gap: 2%;
 }
-.cuerpo1{
+.cuerpo1-nosotros{
   display: flex;
   width: 68%;
   flex-direction: column;
@@ -172,23 +173,23 @@ footer p{
   
 }
 
-.parrafo{
+.parrafo-nosotros{
   display: flex;
   height: 32%;
   flex-direction: column;
   text-align: justify;
 }
-.parrafo h2{
+.parrafo-nosotros h2{
   width: 100%;
   margin-bottom: 12px;
 }
 
-.parrafo p{
+.parrafo-nosotros p{
   width: 100%;
   font-size: 19px;
 }
  
-.parrafo1{
+.parrafo1-nosotros{
   display: flex;
   height: 32%;
   justify-content: space-around;
@@ -196,20 +197,20 @@ footer p{
   background-color: #082338;
 }
 
-.parrafo1 p{
+.parrafo1-nosotros p{
   color: white;
   font-size: 19px;
   padding: 2%;
 }
 
-.parrafo-img{
+.parrafo-img-nosotros{
   width: 100%;
   height: 100%;
   background-image: url(../img/891.jpg);
   background-size: 100% 100%;
 }
 /* ******************* */
-.cuerpo2{
+.cuerpo2-nosotros{
   display: flex;
   width: 30%;
   height: 50%;
@@ -218,7 +219,7 @@ footer p{
   background-color: #082338;
   
 }
-.cuerpo2-texto{
+.cuerpo2-texto-nosotros{
   display: flex;
   width: 90%;
   height: 80%;
@@ -227,20 +228,164 @@ footer p{
   justify-content: flex-start;
   
 }
-.cuerpo2 h2{
+.cuerpo2-nosotros h2{
   font-size: 30px;
   color: white;
 
 }
 
-.cuerpo2 p{
+.cuerpo2-nosotros p{
   color: white;
   font-size: 18px;
 }
 
+/* *************************************
+-------------pagina Servicios------------ */
+
+.cuerpo-servicios {
+  display: flex;
+  width: 100%;
+  padding: 2% 8% 2% 8%;
+  height: 730px;
+  gap: 2%;
+}
+.cuerpo1-servicios{
+  display: flex;
+  width: 68%;
+  flex-direction: column;
+  gap: 1%;
+}
+.parrafo-servicios {
+  display: flex;
+  height: 32%;
+  flex-direction: column;
+  text-align: justify;
+  background: #e3e4e5;
+  justify-content: center;
+  padding: 20px;
+}
+.parrafo-servicios h2 {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.parrafo-servicios p {
+  width: 100%;
+  font-size: 19px;
+}
+
+/* ******************* */
+.cuerpo2-servicios {
+  display: flex;
+  width: 30%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #082338;
+}
+.cuerpo2-texto-servicios {
+  display: flex;
+  width: 90%;
+  height: 80%;
+  flex-direction: column;
+  gap: 10%;
+  justify-content: flex-start;
+}
+.cuerpo2-servicios h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.cuerpo2-servicios p {
+  color: white;
+  font-size: 18px;
+}
+
+
+  /* *************************************
+  -------------pagina contacto------------ */
+  
+  .cuerpo-contacto {
+    display: flex;
+    width: 100%;
+    padding: 2% 8% 2% 8%;
+    height: 730px;
+    gap: 2%;
+  }
+  .cuerpo1-contacto {
+    display: flex;
+    width: 68%;
+    flex-direction: column;
+  }
+  
+  /* ******************* */
+  .cuerpo2-contacto {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #082338;
+  }
+  .cuerpo2-texto-contacto {
+    display: flex;
+    width: 90%;
+    height: 80%;
+    flex-direction: column;
+    gap: 10%;
+    justify-content: flex-start;
+  }
+  .cuerpo2-contacto h2 {
+    font-size: 30px;
+    color: white;
+  }
+  
+  .cuerpo2-contacto p {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .form2-contacto form{
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    flex-direction: column;
+
+  } 
+  
+  .form2-contacto form button{
+    width: 95%;
+    height: 40px;
+    background: rgb(250, 60, 0);
+    border: 1px solid gray;
+    color: white;
+}
+
+  .cuerpo2-mapa-contacto{
+    display: flex;
+    width: 100%;
+    height: 50%;
+  }
+
+  .form2-contacto form input {
+    width: 100%;
+    height: 100%;
+    margin: 0px 3px 0px 0px;
+}
+.form2-contacto form p{
+  font-size: 18px;
+  margin: 0px 0px 10px 0px;
+}
+textarea#texto{
+  width: 690px;
+  height: 242px;
+ 
+}
+
+
 /* 
-**********************************************/
-@media (min-width: 1024px) { 
+*********************************************************************************************************************/
+@media screen and (max-width:1200px){ 
   header {
     height: 80px;
     width: 100%;
@@ -250,7 +395,7 @@ footer p{
   .cabecera {
     display: flex;
     justify-content: space-around;
-    gap: 30%;
+    gap: 10%;
   }
   a {
     display: flex;
@@ -276,17 +421,15 @@ footer p{
     width: 100%;
     height: 500px;
     background-image: url(../img/cabecera.jpg);
-    background-size: 100% 100%;}
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
   img {
     height: 500px;
   }
   
-  section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
   section p {
     width: 80%;
     text-align: center;
@@ -362,5 +505,1016 @@ footer p{
   text-align: -webkit-center;
 }
 
+footer{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: 	#00aae4;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  width: 50%;
+  text-align: center;
+  color: white;
+}
 
- }
+
+/* *************************************
+-------------pagina nosotros------------ */
+
+.cuerpo-nosotros{
+  display: flex;
+  width: 100%;
+  padding: 2% 6% 2% 6%;
+  height: 830px;
+  gap: 2%;
+}
+.cuerpo1-nosotros{
+  display: flex;
+  width: 68%;
+  flex-direction: column;
+  gap: 2%;
+  
+}
+
+.parrafo-nosotros{
+  display: flex;
+  height: 32%;
+  flex-direction: column;
+  text-align: justify;
+}
+.parrafo-nosotros h2{
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+.parrafo-nosotros p{
+  width: 100%;
+  font-size: 18px;
+}
+ 
+.parrafo1-nosotros{
+  display: flex;
+  height: 32%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #082338;
+}
+
+.parrafo1-nosotros p{
+  color: white;
+  font-size: 18px;
+  padding: 2%;
+}
+
+.parrafo-img-nosotros{
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/891.jpg);
+  background-size: 100% 100%;
+}
+/* ******************* */
+.cuerpo2-nosotros{
+  display: flex;
+  width: 30%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #082338;
+  
+}
+.cuerpo2-texto-nosotros{
+  display: flex;
+  width: 90%;
+  height: 80%;
+  flex-direction: column;
+  gap: 10%;
+  justify-content: flex-start;
+  
+}
+.cuerpo2-nosotros h2{
+  font-size: 26px;
+  color: white;
+
+}
+
+.cuerpo2-nosotros p{
+  color: white;
+  font-size: 17px;
+}
+
+
+
+
+/* *************************************
+-------------pagina Servicios------------ */
+
+.cuerpo-servicios {
+  display: flex;
+  width: 100%;
+  padding: 2% 6% 2% 6%;
+  height: 730px;
+  gap: 2%;
+}
+.cuerpo1-servicios{
+  display: flex;
+  width: 68%;
+  flex-direction: column;
+  gap: 1%;
+}
+.cuerpo1-servicios h2{
+  font-size: 20px;
+}
+.parrafo-servicios {
+  display: flex;
+  height: 32%;
+  flex-direction: column;
+  text-align: justify;
+  background: #e3e4e5;
+  justify-content: center;
+  padding:18px;
+}
+.parrafo-servicios h2 {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.parrafo-servicios p {
+  width: 100%;
+  font-size: 19px;
+}
+
+/* ******************* */
+.cuerpo2-servicios {
+  display: flex;
+  width: 30%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #082338;
+}
+.cuerpo2-texto-servicios {
+  display: flex;
+  width: 90%;
+  height: 80%;
+  flex-direction: column;
+  gap: 10%;
+  justify-content: flex-start;
+}
+.cuerpo2-servicios h2 {
+  font-size: 26px;
+  color: white;
+}
+
+.cuerpo2-servicios p {
+  color: white;
+  font-size: 17px;
+}
+
+
+ /* *************************************
+  -------------pagina contacto------------ */
+  
+  .cuerpo-contacto {
+    display: flex;
+    width: 100%;
+    padding: 2% 6% 2% 6%;
+    height: 730px;
+    gap: 2%;
+  }
+  .cuerpo1-contacto {
+    display: flex;
+    width: 68%;
+    flex-direction: column;
+  }
+  .cuerpo1-contacto h2{
+    font-size: 26px;
+  
+  }
+  
+  /* ******************* */
+  .cuerpo2-contacto {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #082338;
+  }
+  .cuerpo2-texto-contacto {
+    display: flex;
+    width: 90%;
+    height: 80%;
+    flex-direction: column;
+    gap: 10%;
+    justify-content: flex-start;
+  }
+  .cuerpo2-contacto h2 {
+    font-size: 26px;
+    color: white;
+  }
+  
+  .cuerpo2-contacto p {
+    color: white;
+    font-size: 17px;
+  }
+  
+  .form2-contacto form{
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    flex-direction: column;
+
+  } 
+  
+  .form2-contacto form button{
+    width: 95%;
+    height: 40px;
+    background: rgb(250, 60, 0);
+    border: 1px solid gray;
+    color: white;
+}
+
+  .cuerpo2-mapa-contacto{
+    display: flex;
+    width: 100%;
+    height: 50%;
+  }
+
+  .form2-contacto form input {
+    width: 100%;
+    height: 100%;
+    margin: 0px 3px 0px 0px;
+}
+.form2-contacto form p{
+  font-size: 17px;
+  margin: 0px 0px 10px 0px;
+}
+textarea#texto{
+  width: 690px;
+  height: 252px;
+ 
+}
+}
+
+
+
+
+
+
+/* 
+*********************************************************************************************************************/
+@media screen and (max-width:1024px){ 
+  header {
+    height: 80px;
+    width: 100%;
+    background-color:#082338;
+    border-bottom: 3px solid #00aae4;
+  }
+  .cabecera {
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+  }
+  a {
+    display: flex;
+    width: 25%;
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+  }
+  h1 {
+    display: flex;
+    height: 79px;
+    align-items: center;
+    color: white;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    width: 40%;
+  }
+  /* **************************************************************** */
+  section {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/cabecera.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+  img {
+    height: 500px;
+  }
+  
+  section p {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+  }
+  section h1 {
+    font-size: 48px;
+  }
+  /* ************************************************************************ */
+  aside {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #082338;
+    gap: 25%;
+  }
+  
+  .boton {
+    width: 38%;
+    height: 33px;
+    padding: 5px 5px;
+    color: white;
+    background: rgb(250, 60, 0);
+    border: none;
+  }
+  
+  form {
+    display: flex;
+    height: 40%;
+    width: 30%;
+  }
+  input {
+    width: 90%;
+    margin: 0px 3px 0px 0px;
+  }
+  aside h2 {
+    color: white;
+  }
+  
+  
+/* ******************************************* */
+.aside{
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  gap: 3%;
+}
+
+.container{
+  display: flex;
+  width: 26%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img{
+  width: 28%;
+  height: 28%;
+}
+.container h1{
+  font-size: 19px;
+  color: black;
+}
+.container p{
+  font-size: 15px;
+  color: black;
+  text-align: -webkit-center;
+}
+
+footer{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: 	#00aae4;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+
+
+/* *************************************
+-------------pagina nosotros------------ */
+
+.cuerpo-nosotros{
+  display: flex;
+  width: 100%;
+  padding: 2% 6% 2% 6%;
+  height: 830px;
+  gap: 2%;
+}
+.cuerpo1-nosotros{
+  display: flex;
+  width: 68%;
+  flex-direction: column;
+  gap: 2%;
+  
+}
+
+.parrafo-nosotros{
+  display: flex;
+  height: 32%;
+  flex-direction: column;
+  text-align: justify;
+}
+.parrafo-nosotros h2{
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+.parrafo-nosotros p{
+  width: 100%;
+  font-size: 18px;
+}
+ 
+.parrafo1-nosotros{
+  display: flex;
+  height: 32%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #082338;
+}
+
+.parrafo1-nosotros p{
+  color: white;
+  font-size: 18px;
+  padding: 2%;
+}
+
+.parrafo-img-nosotros{
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/891.jpg);
+  background-size: 100% 100%;
+}
+/* ******************* */
+.cuerpo2-nosotros{
+  display: flex;
+  width: 30%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #082338;
+  
+}
+.cuerpo2-texto-nosotros{
+  display: flex;
+  width: 90%;
+  height: 80%;
+  flex-direction: column;
+  gap: 10%;
+  justify-content: flex-start;
+  
+}
+.cuerpo2-nosotros h2{
+  font-size: 26px;
+  color: white;
+
+}
+
+.cuerpo2-nosotros p{
+  color: white;
+  font-size: 17px;
+}
+
+
+
+
+/* *************************************
+-------------pagina Servicios------------ */
+
+.cuerpo-servicios {
+  display: flex;
+  width: 100%;
+  padding: 2% 6% 2% 6%;
+  height: 730px;
+  gap: 2%;
+}
+.cuerpo1-servicios{
+  display: flex;
+  width: 68%;
+  flex-direction: column;
+  gap: 1%;
+}
+.cuerpo1-servicios h2{
+  font-size: 20px;
+}
+.parrafo-servicios {
+  display: flex;
+  height: 32%;
+  flex-direction: column;
+  text-align: justify;
+  background: #e3e4e5;
+  justify-content: center;
+  padding:18px;
+}
+.parrafo-servicios h2 {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.parrafo-servicios p {
+  width: 100%;
+  font-size: 19px;
+}
+
+/* ******************* */
+.cuerpo2-servicios {
+  display: flex;
+  width: 30%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #082338;
+}
+.cuerpo2-texto-servicios {
+  display: flex;
+  width: 90%;
+  height: 80%;
+  flex-direction: column;
+  gap: 10%;
+  justify-content: flex-start;
+}
+.cuerpo2-servicios h2 {
+  font-size: 26px;
+  color: white;
+}
+
+.cuerpo2-servicios p {
+  color: white;
+  font-size: 17px;
+}
+
+
+ /* *************************************
+  -------------pagina contacto------------ */
+  
+  .cuerpo-contacto {
+    display: flex;
+    width: 100%;
+    padding: 2% 6% 2% 6%;
+    height: 730px;
+    gap: 2%;
+  }
+  .cuerpo1-contacto {
+    display: flex;
+    width: 68%;
+    flex-direction: column;
+  }
+  .cuerpo1-contacto h2{
+    font-size: 26px;
+  
+  }
+  
+  /* ******************* */
+  .cuerpo2-contacto {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #082338;
+  }
+  .cuerpo2-texto-contacto {
+    display: flex;
+    width: 90%;
+    height: 80%;
+    flex-direction: column;
+    gap: 10%;
+    justify-content: flex-start;
+  }
+  .cuerpo2-contacto h2 {
+    font-size: 26px;
+    color: white;
+  }
+  
+  .cuerpo2-contacto p {
+    color: white;
+    font-size: 17px;
+  }
+  
+  .form2-contacto form{
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    flex-direction: column;
+
+  } 
+  
+  .form2-contacto form button{
+    width: 95%;
+    height: 40px;
+    background: rgb(250, 60, 0);
+    border: 1px solid gray;
+    color: white;
+}
+
+  .cuerpo2-mapa-contacto{
+    display: flex;
+    width: 100%;
+    height: 50%;
+  }
+
+  .form2-contacto form input {
+    width: 100%;
+    height: 100%;
+    margin: 0px 3px 0px 0px;
+}
+.form2-contacto form p{
+  font-size: 17px;
+  margin: 0px 0px 10px 0px;
+}
+textarea#texto{
+  width: 464px;
+  height: 252px;
+ 
+}
+}
+
+
+/* 
+*********************************************************************************************************************/
+@media screen and (max-width:768px){ 
+  header {
+    height: 80px;
+    width: 100%;
+    background-color:#082338;
+    border-bottom: 3px solid #00aae4;
+  }
+  .cabecera {
+    display: flex;
+    justify-content: space-around;
+    gap: 0%;
+  }
+  a {
+    display: flex;
+    width: 25%;
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+  }
+  h1 {
+    display: flex;
+    height: 78px;
+    align-items: center;
+    color: white;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    width: 46%;
+    
+  }
+  /* **************************************************************** */
+  section {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/cabecera.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+  img {
+    height: 500px;
+  }
+  
+  section p {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+  }
+  section h1 {
+    font-size: 48px;
+  }
+  /* ************************************************************************ */
+  aside {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #082338;
+    gap: 10%;
+  }
+  
+  .boton {
+    width: 38%;
+    height: 33px;
+    padding: 5px 5px;
+    color: white;
+    background: rgb(250, 60, 0);
+    border: none;
+  }
+  
+  form {
+    display: flex;
+    height: 40%;
+    width: 30%;
+  }
+  input {
+    width: 90%;
+    margin: 0px 3px 0px 0px;
+  }
+  aside h2 {
+    color: white;
+  }
+  
+  
+/* ******************************************* */
+.aside{
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  gap: 3%;
+}
+
+.container{
+  display: flex;
+  width: 26%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img{
+  width: 24%;
+  height: 24%;
+}
+.container h1{
+  font-size: 18px;
+  color: black;
+}
+.container p{
+  font-size: 14px;
+  color: black;
+  text-align: -webkit-center;
+}
+
+footer{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: 	#00aae4;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+
+
+/* *************************************
+-------------pagina nosotros------------ */
+
+.cuerpo-nosotros{
+  display: flex;
+  width: 100%;
+  padding: 2% 6% 2% 6%;
+  height: 830px;
+  gap: 2%;
+}
+.cuerpo1-nosotros{
+  display: flex;
+  width: 68%;
+  flex-direction: column;
+  gap: 2%;
+  
+}
+
+.parrafo-nosotros{
+  display: flex;
+  height: 32%;
+  flex-direction: column;
+  text-align: justify;
+}
+.parrafo-nosotros h2{
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.parrafo-nosotros p{
+  width: 100%;
+  font-size: 17px;
+}
+ 
+.parrafo1-nosotros{
+  display: flex;
+  height: 32%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #082338;
+}
+
+.parrafo1-nosotros p{
+  color: white;
+  font-size: 17px;
+  padding: 2%;
+}
+
+.parrafo-img-nosotros{
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/891.jpg);
+  background-size: 100% 100%;
+}
+/* ******************* */
+.cuerpo2-nosotros{
+  display: flex;
+  width: 30%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #082338;
+  
+}
+.cuerpo2-texto-nosotros{
+  display: flex;
+  width: 90%;
+  height: 80%;
+  flex-direction: column;
+  gap: 10%;
+  justify-content: flex-start;
+  
+}
+.cuerpo2-nosotros h2{
+  font-size: 25px;
+  color: white;
+
+}
+
+.cuerpo2-nosotros p{
+  color: white;
+  font-size: 16px;
+}
+
+
+
+
+/* *************************************
+-------------pagina Servicios------------ */
+
+.cuerpo-servicios {
+  display: flex;
+  width: 100%;
+  padding: 2% 6% 2% 6%;
+  height: 730px;
+  gap: 2%;
+}
+.cuerpo1-servicios{
+  display: flex;
+  width: 68%;
+  flex-direction: column;
+  gap: 1%;
+}
+.cuerpo1-servicios h2{
+  font-size: 19px;
+}
+.parrafo-servicios {
+  display: flex;
+  height: 32%;
+  flex-direction: column;
+  text-align: justify;
+  background: #e3e4e5;
+  justify-content: center;
+  padding:16px;
+}
+.parrafo-servicios h2 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.parrafo-servicios p {
+  width: 100%;
+  font-size: 15px;
+}
+
+/* ******************* */
+.cuerpo2-servicios {
+  display: flex;
+  width: 30%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #082338;
+}
+.cuerpo2-texto-servicios {
+  display: flex;
+  width: 90%;
+  height: 80%;
+  flex-direction: column;
+  gap: 10%;
+  justify-content: flex-start;
+}
+.cuerpo2-servicios h2 {
+  font-size: 22px;
+  color: white;
+}
+
+.cuerpo2-servicios p {
+  color: white;
+  font-size: 15px;
+}
+
+
+ /* *************************************
+  -------------pagina contacto------------ */
+  
+  .cuerpo-contacto {
+    display: flex;
+    width: 100%;
+    padding: 2% 6% 2% 6%;
+    height: 730px;
+    gap: 2%;
+  }
+  .cuerpo1-contacto {
+    display: flex;
+    width: 68%;
+    flex-direction: column;
+  }
+  .cuerpo1-contacto h2{
+    font-size: 25px;
+  
+  }
+  
+  /* ******************* */
+  .cuerpo2-contacto {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #082338;
+  }
+  .cuerpo2-texto-contacto {
+    display: flex;
+    width: 90%;
+    height: 80%;
+    flex-direction: column;
+    gap: 10%;
+    justify-content: flex-start;
+  }
+  .cuerpo2-contacto h2 {
+    font-size: 25px;
+    color: white;
+  }
+  
+  .cuerpo2-contacto p {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .form2-contacto form{
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    flex-direction: column;
+
+  } 
+  
+  .form2-contacto form button{
+    width: 95%;
+    height: 40px;
+    background: rgb(250, 60, 0);
+    border: 1px solid gray;
+    color: white;
+}
+
+  .cuerpo2-mapa-contacto{
+    display: flex;
+    width: 100%;
+    height: 50%;
+  }
+
+  .form2-contacto form input {
+    width: 100%;
+    height: 100%;
+    margin: 0px 3px 0px 0px;
+}
+.form2-contacto form p{
+  font-size: 16px;
+  margin: 0px 0px 2px 0px;
+}
+textarea#texto{
+  width: 380px;
+  height: 262px;
+ 
+}
+}
+
+
+
+
